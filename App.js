@@ -28,7 +28,8 @@ export default function App() {
         }
         console.log(jurus)
         setResultado(jurus)
-        console.log(resultado)
+        setValor(null)
+        setMeses(null)
       }else{
         seterro("valores invalidos")
         console.log(erro)
